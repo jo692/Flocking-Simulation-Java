@@ -44,18 +44,18 @@ public class FlockingTest {
 		
 		
 		//Set sunset as the background image, catch exception if image not found
-		File backgroundImage = new File("sunset.jpg");
-		try {
-			sunset = ImageIO.read(backgroundImage);
-		}
-		catch (IOException ex) {
-			System.out.println("File not found: \"" + backgroundImage + "\". Terminating!");
-			System.exit(0);
-		}
+		//File backgroundImage = new File("sunset.jpg");
+		//try {
+		//	sunset = ImageIO.read(backgroundImage);
+		//}
+		//catch (IOException ex) {
+		//	System.out.println("File not found: \"" + backgroundImage + "\". Terminating!");
+		//	System.exit(0);
+		//}
 		
 		//Attempt to add background image
-		canvas = new BackgroundImage(sunset);
-		frame.add(canvas, BorderLayout.CENTER);
+		//canvas = new BackgroundImage(sunset);
+		//frame.add(canvas, BorderLayout.CENTER);
 		
 		//Adding canvas to the centre of the frame
 		canvas = new Canvas();
